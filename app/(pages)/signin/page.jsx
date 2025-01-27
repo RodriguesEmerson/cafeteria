@@ -10,9 +10,7 @@ const SignIn = () => {
             <div className="flex items-center justify-center w-[500px] h-full bg-[#3F643370] rounded-l-md">
                <Image src={"/images/signIn.png"} alt="sign in image" width={450} height={400} />
             </div>
-
             <div className="relative flex flex-col justify-center h-full w-[350px]">
-
                <div className="absolute right-2 top-1 flex gap-2 items-center p-2 justify-end text-xs">
                   <p>Ainda não tem uma conta?</p>
                   <Link
@@ -22,7 +20,6 @@ const SignIn = () => {
                      Criar Conta
                   </Link>
                </div>
-
                <div className="p-4">
                   <h2 className="text-2xl font-bold text-gray-500 mb-7">Entrar</h2>
                   <form className="flex flex-col gap-5">
@@ -33,9 +30,8 @@ const SignIn = () => {
                      </div>
                      <ButtonFillGreen type="submit" style={{ width: "100%" }}>Entrar</ButtonFillGreen>
                   </form>
-
                </div>
-               <div className="flex items-center gap-1 justify-center">
+               <div className="flex items-center gap-1 justify-center mt-4">
                   <input
                      id="rc-2259"
                      type="checkbox" 
