@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export const Header = () => { 
    return (
-      <header className="bg-black flex justify-between items-center px-4">
+      <header className="bg-black flex justify-between h-16 items-center px-4">
          <div className="container mx-auto p-4">
             <Link href="/">
-               <h1 className="text-2xl text-white">Cafeteria Organizze</h1>
+               <h1 className="text-2xl font-semibold text-white">Cafeteria Organizze</h1>
             </Link>
          </div>
          <div className="flex gap-4">
